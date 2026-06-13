@@ -87,18 +87,21 @@ age = 25;
 console.log(age);
 
 let age;
-
-
-
-
-
-
-
-var age = 25;
-let age = 25;
 const age = 25;
+
+
+
+
+
+
+
+var age1 = 25;
+let age2 = 25;
+const age3 = 25;
 {
-  console.log(age);
+  console.log(age1);
+  console.log(age2);
+  console.log(age3);
 }
 
 {} - block
