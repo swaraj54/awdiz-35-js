@@ -47,7 +47,7 @@ console.log(numbers);
 
 
 const numbers = [1, 2, 3, 4];
-
+[2, 4, 6, 8]
 const updatdNumbers = numbers.map((number) => number + number);
 const updatdNumbers = numbers.map(function (number) {
   number + number;
@@ -98,7 +98,7 @@ console.log(activePlayers, "activePlayers");
 
 var numbers = [1, 2, 3, 4, 5];
 const addition = numbers.reduce((acc, number) => acc + number, 0);
-console.log(addition, "addition");
+console.log(addition, "addition"); // 15
 
 
 
@@ -119,7 +119,7 @@ console.log(totalElementsCount);
 
 
 // conditions ? true : false;
-console.log(2 > 3 ? "true" : "false kjbnhuj0jdew");
+console.log(2 < 3 ? "true" : "false kjbnhuj0jdew");
 
 
 
@@ -152,7 +152,7 @@ numbers.forEach((num) => console.log(num * 2));
 
 
 const numbers = ["Awdiz", 2, 3, 4, 5];
-console.log(numbers.at(0));
+console.log(numbers.at(0)); // Awdiz
 
 
 
@@ -170,7 +170,7 @@ console.log(array3, "array3");
 
 
 
-const numbers = [1, 32, 4, 5, 56, 6, 6];
+const numbers = [15, 32, 4, 5, 56, 6, 6];
 const biggerThan = numbers.find((num) => num > 5);
 console.log(biggerThan, "biggerThan");
 
@@ -181,4 +181,4 @@ console.log(biggerThan, "biggerThan");
 const number = [3, 4, 6, 7, 8, 3, 2, 5, 7, 434];
 
 const output = number.findIndex((num) => num > 10);
-console.log(output, "output");
+console.log(output, "output"); // index 9 

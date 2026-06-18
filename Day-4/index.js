@@ -1,5 +1,7 @@
 // Array
 
+// var name = [Element,Element,Element]
+
 var students = [
   ["rohit"],
   "rohit",
