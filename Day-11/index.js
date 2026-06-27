@@ -85,6 +85,12 @@ account(50);
 account(30);
 console.log(balance, "balance");
 
+
+
+
+
+
+
 function createUser() {
   let password = "abcde";
   return {
@@ -101,6 +107,12 @@ const user = createUser();
 console.log(user.checkPassword("abcde"));
 console.log(user.checkPasswordLength("abcde"));
 console.log(password);
+
+
+
+
+
+
 
 function createCounter() {
   let counter = 0;
