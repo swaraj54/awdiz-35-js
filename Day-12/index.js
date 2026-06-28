@@ -1,40 +1,24 @@
-var numbers = [1, 2, 3, 4, 5, 6];
-let target = 1;
+// var numbers = [1, 2, 3, 4, 5, 6];
+// let target = 1;
 
-function findTargetIndex(array, target) {
-  let foundIndex = false;
-  for (let i = 0; i < array.length; i++) {
-    // console.log(i, array[i]);
-    if (array[i] === target) {
-      foundIndex = true;
-      return i;
-    }
-  }
-  if (foundIndex == false) {
-    return -1;
-  }
-}
+// function findTargetIndex(array, target) {
+//   let foundIndex = false;
+//   for (let i = 0; i < array.length; i++) {
+//     // console.log(i, array[i]);
+//     if (array[i] === target) {
+//       foundIndex = true;
+//       return i;
+//     }
+//   }
+//   if (foundIndex == false) {
+//     return -1;
+//   }
+// }
 
-console.log(findTargetIndex(numbers, target));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(findTargetIndex(numbers, target));
 
 // binary approach
-var numbers = [1, 2, 3, 4, 5, 6];
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 let target = 5;
 
 function findTargetIndex(array, target) {
