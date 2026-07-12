@@ -27,6 +27,9 @@ console.log(jsonToJsConvertedData,"jsonToJsConvertedData")
 function Person(name, age){
     this.name = name;
     this.age = age;
+    this.hi = function(){
+        return "Hi"
+    }
 }
 
 Person.prototype.greet = function(){
@@ -37,6 +40,7 @@ const person1 = new Person("Virat", 38)
 console.log(person1.greet(),"greet()")
 console.log(person1.name,"name")
 console.log(person1.age,"age")
+console.log(person1.hi(),"hi")
 
 const person2 = new Person("Rohit", 40)
 console.log(person2,"person2")
